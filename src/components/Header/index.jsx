@@ -22,6 +22,7 @@ const Header = () => {
                             <a href="/">Home</a>
                         </li>
                         <li>
+<<<<<<< HEAD
                             <a href="/Sobre">Sobre</a>
                         </li>
                         <li>
@@ -29,6 +30,15 @@ const Header = () => {
                         </li>
                         <li>
                             <a href="/Contatos">Contatos</a>
+=======
+                            <a href="/sobre">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="/portifolio">Portifólio</a>
+                        </li>
+                        <li>
+                            <a href="/contatos">Contatos</a>
+>>>>>>> 1147ac5802223158d8c4cacf88c727bf611227fa
                         </li>
                     </ul>
                 </nav>

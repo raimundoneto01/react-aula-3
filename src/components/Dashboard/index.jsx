@@ -8,14 +8,7 @@ const Dashboard = () => {
     return(
         <>
             <h1>Dashboard</h1>
-            <button 
-                className={visivel ? 'active': ''}
-                onClick={()=>{
-                    setContador(contador + 1)
-                    setVisivel(!visivel)
-                }}
-            >
-                Incrementar{contador}</button>
+            
         </>
     );
 }
