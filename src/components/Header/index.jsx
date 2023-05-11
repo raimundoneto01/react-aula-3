@@ -19,16 +19,16 @@ const Header = () => {
                     }
                     <ul>
                         <li>
-                            <a href="#!">Home</a>
+                            <a href="/">Home</a>
                         </li>
                         <li>
-                            <a href="#!">Sobre</a>
+                            <a href="/Sobre">Sobre</a>
                         </li>
                         <li>
-                            <a href="#!">Portifólio</a>
+                            <a href="/Portifolio">Portifólio</a>
                         </li>
                         <li>
-                            <a href="#!">Contatos</a>
+                            <a href="/Contatos">Contatos</a>
                         </li>
                     </ul>
                 </nav>

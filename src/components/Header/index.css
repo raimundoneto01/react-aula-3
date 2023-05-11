@@ -12,7 +12,7 @@
 header{
     width: 250px;
     height: 100vh;
-    background-color: blueviolet;
+    background-image: linear-gradient(to left, #949411, #9a1414, #2626da);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -54,4 +54,17 @@ header h6{
     color: white;
     font-size: 12px;
     text-transform: uppercase;
+}
+button{
+    line-height: 50px;
+    padding: 0 26px;
+    background-color: transparent;
+    color: #9a1414;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button.active{
+    background-color: #949411;
+    color: white;
 }
