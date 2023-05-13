@@ -55,16 +55,3 @@ header h6{
     font-size: 12px;
     text-transform: uppercase;
 }
-button{
-    line-height: 50px;
-    padding: 0 26px;
-    background-color: transparent;
-    color: #9a1414;
-    border: 2px solid black;
-    border-radius: 5px;
-    cursor: pointer;
-}
-button.active{
-    background-color: #949411;
-    color: white;
-}

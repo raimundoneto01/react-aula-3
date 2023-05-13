@@ -7,6 +7,7 @@ import Contatos from './components/Contatos';
 import Portifolio from './components/Portifolio';
 import NotFound from './components/NotFound';
 import PageLayout from './components/layouts/PageLayout';
+import Produtos from './components/Produtos';
 
 const App = () => {
   return(
@@ -20,6 +21,7 @@ const App = () => {
               <Route path='/Sobre' element={<Sobre/>}/>
               <Route path='/Contatos' element={<Contatos/>}/>
               <Route path='/Portifolio' element={<Portifolio/>}/>
+              <Route path='/Produtos' element={<Produtos/>}/>
           </Route>
           <Route path='*' element={<NotFound/>}/>
         </Routes>

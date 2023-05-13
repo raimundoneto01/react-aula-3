@@ -16,7 +16,7 @@ const Dashboard = () => {
                 }}
 
             >
-            Incrementar{contador}
+                Incrementar{contador}
             </button>
         </>
     );
